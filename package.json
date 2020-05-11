@@ -1,0 +1,20 @@
+{
+  "name": "prerender-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --out-dir build",
+    "postbuild": "react-snap"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react-snap": "^1.23.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
+  }
+}
